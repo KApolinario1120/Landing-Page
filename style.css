@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+.hero-text {
+    font-size: 48px #F9FAF8;
+    font-weight: bolder;
+    font-style: #F9FAF8
+}
+header.header {
+    background-color: #1F2937
+}
