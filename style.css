@@ -36,7 +36,8 @@ header.header {
 .container{
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 30px
+    padding: 0 30px;
+    gap: 15px
 }
 ul {list-style-type: none;}
 
@@ -71,7 +72,8 @@ ul {list-style-type: none;}
     align-items: center;
     background: #1F2937;
     padding-bottom: 100px;
-    padding-top: 100px;l
+    padding-top: 100px;
+    
 
     
 }
@@ -94,4 +96,90 @@ ul {list-style-type: none;}
     border:0pt;
     margin-top: 15px
 
+}
+/*styling for 'random information' section and boxes*/
+section.boxes {
+    height: 310px;
+    width: auto;
+    background: rgb(255, 255, 255);
+    
+}
+div.boxbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 35px
+}
+
+
+.bluebox {
+    height: 175px;
+    width: 175px;
+    border-color:#2376ea;
+    border-radius: 10px;
+    border: 5px solid #2376ea;
+    margin: 10px 15px;
+    background: #fff;  
+}
+
+.boxwrapper {
+    text-align: center
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937
+    
+}
+
+.text {
+    max-width: 100px;
+    font-size: 13px;
+    margin: auto;
+    font-style:italic
+}
+
+/*styling for quote section*/
+
+section.quote {
+    background: #E5E7EB;
+    height: 329px;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 750px;
+    text-align: center;
+}
+
+span {
+    font-size: 25px;
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: bolder
+}
+/*Styling for call to action section at bottom of page */
+
+
+
+
+.call-to-action {
+    background:#3882F6;
+    color: #fff;
+    width: 900px;
+    height: 200px;
+    border-radius: 15px;
+    font-size: 24px
 }
