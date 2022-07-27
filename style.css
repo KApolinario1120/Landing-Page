@@ -89,13 +89,13 @@ ul {list-style-type: none;}
 
 .signup1 {
     background: #2376ea;
-    padding: 5px 10px;
+    padding: 10px 20px;
     color: #fff;
     font-weight:600;
     border-radius: 7px;
     border:0pt;
-    margin-top: 15px
-
+    margin-top: 15px;
+    font-size: 16px
 }
 /*styling for 'random information' section and boxes*/
 section.boxes {
@@ -215,4 +215,14 @@ section.action-call {
 }
 .call-to-action p {
     max-width: 650px;
+}
+
+section.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background:#1F2937;
+    width: auto;
+    color: #fff
 }
