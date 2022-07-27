@@ -172,14 +172,47 @@ span {
 }
 /*Styling for call to action section at bottom of page */
 
-
+section.action-call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding-bottom: 100px
+}
 
 
 .call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     background:#3882F6;
     color: #fff;
     width: 900px;
-    height: 200px;
+    height: 130px;
     border-radius: 15px;
-    font-size: 24px
+    font-size: 16px;
+    padding-left: 25px;
+    
+    
+}
+.call-to-action strong {
+    font-size: 20px;
+    display: block
+}
+.signup2 {
+    background: #3882F6;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight:600;
+    border-radius: 7px;
+    border: solid;
+    border-width: 3px;
+    padding: 12px;
+    font-size: 16px;
+    width: 140px;
+    height: 50px;
+}
+.call-to-action p {
+    max-width: 650px;
 }
